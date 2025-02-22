@@ -1,5 +1,5 @@
 {
-    "name": "@omerme13/ui-components",
+    "name": "@omerme/ui-components",
     "version": "0.0.5",
     "type": "module",
     "types": "dist/index.d.ts",
