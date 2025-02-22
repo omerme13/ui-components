@@ -1,16 +1,18 @@
 {
   "name": "@omerme13/ui-components",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "types": "dist/index.d.ts",
   "exports": {
-	".": {
-		"import": "./dist/ui-components.es.js",
-		"require": "./dist/ui-components.umd.js"
-	}
+    ".": {
+      "import": "./dist/ui-components.es.js",
+      "require": "./dist/ui-components.umd.js"
+    }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -18,7 +20,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-	 "bump:patch": "npm version patch && npm run build && npm publish"
+    "bump:patch": "npm version patch && npm run build && npm publish"
   },
   "peerDependencies": {
     "react": "^19.0.0",
