@@ -1,0 +1,85 @@
+:root {
+    --color-purple-70: #5c60c9;
+    --color-purple-60: #7b7ed8;
+    --color-purple-50: #9c9ee8;
+    --color-purple-40: #c9cdf5;
+    --color-purple-30: #dcdeef;
+    --color-purple-20: #eaebfb;
+    --color-purple-10: #f7f7fd;
+
+    --color-main-text: #072a58;
+    --color-main-text-light: rgba(7, 42, 88, 0.8);
+    --color-card-background: #fff;
+    --color-secondary: #e67e22;
+	--color-text-white: whitesmoke;
+
+    --color-cta: var(--color-purple-70);
+    --color-cta-hover: var(--color-purple-60);
+    --color-cta-light: rgba(92, 96, 201, 0.15);
+    --color-cta-lighter: rgba(92, 96, 201, 0.1);
+
+    --color-gray: #eee;
+    --color-red: rgba(231, 76, 60, 0.7);
+    --color-yellow: rgba(241, 196, 15, 0.7);
+    --color-green: rgba(46, 204, 113, 0.7);
+    --color-blue: rgba(52, 152, 219, 0.7);
+    --color-red-strong: rgba(231, 76, 60);
+
+
+    --font-family-main: "Lato", Arial, sans-serif;
+    --font-weight-bold: 600;
+    --font-size-s: 1.2rem;
+    --font-size-m: 1.4rem;
+    --font-size-l: 1.6rem;
+    --line-height-regular: 1.5;
+
+    --task-width: 25rem;
+    --sidebar-width: 20rem;
+    --sidebar-width-compact: 5.4rem;
+
+    --shadow-1: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+    --shadow-2: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
+    --shadow-3: 0 0.8rem 2.4rem rgba(0, 0, 0, 0.12);
+    --shadow-focus: 0 0 0 0.4rem var(--color-cta-light);
+    --shadow-focus-purple: 0 0 0 2px var(--color-purple-60);
+    --shadow-focus-purple-secondary: 0 0 0 4px var(--color-purple-10);
+
+    --z-base: 1;
+    --z-low: 10;
+    --z-mid: 100;
+    --z-high: 1000;
+
+    --radius-xs: 0.3rem;
+    --radius-s: 0.5rem;
+    --radius-m: 0.8rem;
+    --radius-l: 1.2rem;
+    --radius-xl: 2.8rem;
+    --radius-full: 50%;
+}
+
+html.dark {
+    --color-purple-70: #6e6eb8;
+    --color-purple-60: #565696;
+    --color-purple-50: #3f3f6e;
+    --color-purple-40: #2a2a4a;
+    --color-purple-30: #252543;
+    --color-purple-20: #12111c;
+    --color-purple-10: #111118;
+
+    --color-main-text: #d1d5db;
+    --color-main-text-light: rgba(209, 213, 219, 0.8);
+    --color-card-background: #1d1d32;
+
+    --color-cta: var(--color-purple-70);
+    --color-cta-hover: var(--color-purple-60);
+    --color-cta-light: rgba(110, 110, 184, 0.15);
+    --color-cta-lighter: rgba(110, 110, 184, 0.1);
+
+    --color-gray: #2c2c3a;
+    --color-red: rgba(203, 64, 66, 0.7);
+    --color-yellow: rgba(246, 174, 45, 0.7);
+    --color-green: rgba(82, 183, 136, 0.7);
+    --color-blue: rgba(69, 123, 157, 0.7);
+    --color-red-strong: rgb(203, 64, 66);
+
+}
