@@ -1,6 +1,6 @@
 {
     "name": "@omerme/ui-components",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "React UI Components Library",
     "type": "module",
     "types": "dist/index.d.ts",
