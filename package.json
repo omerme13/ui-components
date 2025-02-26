@@ -1,15 +1,15 @@
 {
     "name": "@omerme/ui-components",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "description": "React UI Components Library",
     "type": "module",
     "types": "dist/index.d.ts",
     "exports": {
-		".": {
-			"import": "./dist/ui-components.es.js",
-			"require": "./dist/ui-components.umd.js",
-			"types": "./dist/index.d.ts"
-		}
+        ".": {
+            "import": "./dist/ui-components.es.js",
+            "require": "./dist/ui-components.umd.js",
+            "types": "./dist/index.d.ts"
+        }
     },
     "files": [
         "dist"
