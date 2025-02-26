@@ -6,13 +6,13 @@ import svgr from "vite-plugin-svgr";
 import path from "path";
 
 export default defineConfig({
-    plugins: [react(), svgr(), dts({ exclude: "**/*.stories.ts", insertTypesEntry: true })],
+    plugins: [react(), svgr(), dts({ insertTypesEntry: true, exclude: ["**/*.stories.ts", "**/*.test.tsx"] })],
     build: {
         lib: {
             entry: "./src/index.ts",
             name: "ui-components",
-            formats: ["es", "cjs", "umd"],
             fileName: (format) => `ui-components.${format}.js`,
+            formats: ["es", "cjs", "umd"],
         },
         rollupOptions: {
             external: Object.keys(peerDependencies),
